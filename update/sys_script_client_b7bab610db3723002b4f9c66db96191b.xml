@@ -25,10 +25,10 @@
 	
 	
 	// Simulating a OBJ response from Storage
-	var objList = [{value: "1", label: "SNAP JDT", selected: false},
-					{value: "2", label: "SNAP William01", selected: true},
-					{value: "3", label: "SNAP JHONNY", selected: false},
-					{value: "4", label: "5N@P W#$&RDY", selected: false}];
+	var objList = [{value: "G1000-SNAP JDT", label: "SNAP JDT", selected: false},
+					{value: "G700-SNAP William01", label: "SNAP William01", selected: true},
+					{value: "G700-SNAP JHONNY", label: "SNAP JHONNY", selected: false},
+					{value: "G1000-VSM-5N@P W#$&RDY", label: "5N@P W#$&RDY", selected: false}];
 	var selected = 0;
 
 	g_form.clearOptions('u_snapshot_list');
@@ -50,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b7bab610db3723002b4f9c66db96191b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>populate_snapshots_of_host</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -58,7 +58,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_b7bab610db3723002b4f9c66db96191b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-19 12:59:14</sys_updated_on>
+        <sys_updated_on>2019-02-19 19:39:24</sys_updated_on>
         <table>x_58872_needit_look_for_snaps</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
