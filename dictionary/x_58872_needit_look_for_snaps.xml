@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Look for snaps" max_length="40" name="x_58872_needit_look_for_snaps" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Choice 1" label="Hostname" max_length="40" name="u_hostame" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Hostname" mandatory="true" max_length="40" name="u_hostname" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Snapshot List" mandatory="true" max_length="40" name="u_snapshot_list" type="string">
             <choice>
